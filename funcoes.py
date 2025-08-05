@@ -1,12 +1,13 @@
 ### FUNÇÕES ###
 
+"""
 # len() retorna o número de itens em uma sequência
 
 # append() adiciona um item ao final de uma lista
 
 # insert() e pop() adicionam e removem itens da lista em posições específicas
 
-##########################################################################3
+"""
 
 #retona erro, não foi concatenado
 #name = "Anna"
@@ -37,7 +38,7 @@
 # print(len(topic))
 
 # Testando remover elemento de lista como string e colcoando lower nele
-films = ["Os Indomaveis", "Senhor dos aneis", "Harry Potter"]
+films = ["Os Indomaveis", "Senhor dos aneis", "HARRY POTTER"]
 
 # removed_item = films.pop(2)  # Remove terceiro elemento e retorna como string
 # print("lista de filmes\n" + removed_item.lower())  # Aplica .lower() na string removida
