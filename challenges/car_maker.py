@@ -1,6 +1,3 @@
-from struct import pack_into
-
-
 class Car:
     def __init__(self, make, model, year, color, fuel_level=100):
         self.make = make
